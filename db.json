@@ -1,0 +1,8 @@
+{
+  "lenders": [
+    { "id": 1, "name": "TD", "offered": "true", "status": "primary" },
+    { "id": 2, "name": "Genesis", "offered": "false", "status": "secondary" },
+    { "id": 3, "name": "Tidewater", "offered": "false", "status": "secondary" },
+    { "id": 4, "name": "ANow", "offered": "false", "status": "lease" }
+  ]
+}
