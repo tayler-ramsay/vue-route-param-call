@@ -4,7 +4,7 @@
     <!-- <div v-for="item in lenders" :key="item.id">{{ item }}</div> -->
     <div v-for="item in lenders" :key="item.id">
       <div
-        v-if="item.name === offered"
+        v-if="item.name === offered.toLowerCase()"
         class="bg-purple text-white sm:bg-green md:bg-blue md:text-yellow lg:bg-red xl:bg-orang"
       >
         <h2>Name: {{ item.name }}</h2>
